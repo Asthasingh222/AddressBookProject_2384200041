@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "AddressBook.Controllers.AddressBookController",
+    "Method": "GetAllContacts",
+    "RelativePath": "AddressBook",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AddressBook.Controllers.AddressBookController",
+    "Method": "AddContact",
+    "RelativePath": "AddressBook",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addressBookDTO",
+        "Type": "ModelLayer.Model.AddressBookDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AddressBook.Controllers.AddressBookController",
+    "Method": "GetContactsByID",
+    "RelativePath": "AddressBook/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AddressBook.Controllers.AddressBookController",
+    "Method": "UpdateContact",
+    "RelativePath": "AddressBook/{Id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "addressBookDTO",
+        "Type": "ModelLayer.Model.AddressBookDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AddressBook.Controllers.AddressBookController",
+    "Method": "DeleteContact",
+    "RelativePath": "AddressBook/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
