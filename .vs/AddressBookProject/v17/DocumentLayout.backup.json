@@ -3,8 +3,72 @@
   "WorkspaceRootPath": "C:\\Users\\astha\\source\\repos\\AddressBookProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B9F8F8B7-DD6A-48C7-98EA-4EFF5268D718}|RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\astha\\source\\repos\\addressbookproject\\repositorylayer\\service\\userrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9F8F8B7-DD6A-48C7-98EA-4EFF5268D718}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\service\\userrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62BDCF35-0EBA-49E8-985B-F356326463B3}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\astha\\source\\repos\\addressbookproject\\businesslayer\\service\\addressbookbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62BDCF35-0EBA-49E8-985B-F356326463B3}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\service\\addressbookbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC52AFA1-7B8E-4AD3-A585-D53701BE8AC1}|AddressBookProject\\AddressBookProject.csproj|c:\\users\\astha\\source\\repos\\addressbookproject\\addressbookproject\\controllers\\addressbookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC52AFA1-7B8E-4AD3-A585-D53701BE8AC1}|AddressBookProject\\AddressBookProject.csproj|solutionrelative:addressbookproject\\controllers\\addressbookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC52AFA1-7B8E-4AD3-A585-D53701BE8AC1}|AddressBookProject\\AddressBookProject.csproj|c:\\users\\astha\\source\\repos\\addressbookproject\\addressbookproject\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CC52AFA1-7B8E-4AD3-A585-D53701BE8AC1}|AddressBookProject\\AddressBookProject.csproj|solutionrelative:addressbookproject\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CC52AFA1-7B8E-4AD3-A585-D53701BE8AC1}|AddressBookProject\\AddressBookProject.csproj|c:\\users\\astha\\source\\repos\\addressbookproject\\addressbookproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC52AFA1-7B8E-4AD3-A585-D53701BE8AC1}|AddressBookProject\\AddressBookProject.csproj|solutionrelative:addressbookproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9F8F8B7-DD6A-48C7-98EA-4EFF5268D718}|RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\astha\\source\\repos\\addressbookproject\\repositorylayer\\service\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9F8F8B7-DD6A-48C7-98EA-4EFF5268D718}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\service\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90B8EE29-5441-4161-88A8-33EE289BB4E3}|ModelLayer\\ModelLayer.csproj|c:\\users\\astha\\source\\repos\\addressbookproject\\modellayer\\model\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90B8EE29-5441-4161-88A8-33EE289BB4E3}|ModelLayer\\ModelLayer.csproj|solutionrelative:modellayer\\model\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9F8F8B7-DD6A-48C7-98EA-4EFF5268D718}|RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\astha\\source\\repos\\addressbookproject\\repositorylayer\\interface\\iuserrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9F8F8B7-DD6A-48C7-98EA-4EFF5268D718}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\interface\\iuserrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9F8F8B7-DD6A-48C7-98EA-4EFF5268D718}|RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\astha\\source\\repos\\addressbookproject\\repositorylayer\\interface\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9F8F8B7-DD6A-48C7-98EA-4EFF5268D718}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\interface\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90B8EE29-5441-4161-88A8-33EE289BB4E3}|ModelLayer\\ModelLayer.csproj|c:\\users\\astha\\source\\repos\\addressbookproject\\modellayer\\model\\resetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90B8EE29-5441-4161-88A8-33EE289BB4E3}|ModelLayer\\ModelLayer.csproj|solutionrelative:modellayer\\model\\resetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90B8EE29-5441-4161-88A8-33EE289BB4E3}|ModelLayer\\ModelLayer.csproj|c:\\users\\astha\\source\\repos\\addressbookproject\\modellayer\\model\\forgetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90B8EE29-5441-4161-88A8-33EE289BB4E3}|ModelLayer\\ModelLayer.csproj|solutionrelative:modellayer\\model\\forgetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62BDCF35-0EBA-49E8-985B-F356326463B3}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\astha\\source\\repos\\addressbookproject\\businesslayer\\service\\jwtservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62BDCF35-0EBA-49E8-985B-F356326463B3}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\service\\jwtservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62BDCF35-0EBA-49E8-985B-F356326463B3}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\astha\\source\\repos\\addressbookproject\\businesslayer\\service\\userbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62BDCF35-0EBA-49E8-985B-F356326463B3}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\service\\userbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62BDCF35-0EBA-49E8-985B-F356326463B3}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\astha\\source\\repos\\addressbookproject\\businesslayer\\interface\\iuserbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62BDCF35-0EBA-49E8-985B-F356326463B3}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\interface\\iuserbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC52AFA1-7B8E-4AD3-A585-D53701BE8AC1}|AddressBookProject\\AddressBookProject.csproj|c:\\users\\astha\\source\\repos\\addressbookproject\\addressbookproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CC52AFA1-7B8E-4AD3-A585-D53701BE8AC1}|AddressBookProject\\AddressBookProject.csproj|solutionrelative:addressbookproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC52AFA1-7B8E-4AD3-A585-D53701BE8AC1}|AddressBookProject\\AddressBookProject.csproj|c:\\users\\astha\\source\\repos\\addressbookproject\\addressbookproject\\addressbookproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CC52AFA1-7B8E-4AD3-A585-D53701BE8AC1}|AddressBookProject\\AddressBookProject.csproj|solutionrelative:addressbookproject\\addressbookproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC52AFA1-7B8E-4AD3-A585-D53701BE8AC1}|AddressBookProject\\AddressBookProject.csproj|c:\\users\\astha\\source\\repos\\addressbookproject\\addressbookproject\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC52AFA1-7B8E-4AD3-A585-D53701BE8AC1}|AddressBookProject\\AddressBookProject.csproj|solutionrelative:addressbookproject\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -25,21 +89,229 @@
               "Name": "ST:4:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UserRL.cs",
+              "DocumentMoniker": "C:\\Users\\astha\\source\\repos\\AddressBookProject\\RepositoryLayer\\Service\\UserRL.cs",
+              "RelativeDocumentMoniker": "RepositoryLayer\\Service\\UserRL.cs",
+              "ToolTip": "C:\\Users\\astha\\source\\repos\\AddressBookProject\\RepositoryLayer\\Service\\UserRL.cs",
+              "RelativeToolTip": "RepositoryLayer\\Service\\UserRL.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAgwEcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T05:52:53.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\astha\\source\\repos\\AddressBookProject\\RepositoryLayer\\Service\\EmailService.cs",
+              "RelativeDocumentMoniker": "RepositoryLayer\\Service\\EmailService.cs",
+              "ToolTip": "C:\\Users\\astha\\source\\repos\\AddressBookProject\\RepositoryLayer\\Service\\EmailService.cs",
+              "RelativeToolTip": "RepositoryLayer\\Service\\EmailService.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAYwDYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T05:52:38.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\astha\\source\\repos\\AddressBookProject\\ModelLayer\\Model\\UserDTO.cs",
+              "RelativeDocumentMoniker": "ModelLayer\\Model\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\astha\\source\\repos\\AddressBookProject\\ModelLayer\\Model\\UserDTO.cs",
+              "RelativeToolTip": "ModelLayer\\Model\\UserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T05:51:45.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IUserRL.cs",
+              "DocumentMoniker": "C:\\Users\\astha\\source\\repos\\AddressBookProject\\RepositoryLayer\\Interface\\IUserRL.cs",
+              "RelativeDocumentMoniker": "RepositoryLayer\\Interface\\IUserRL.cs",
+              "ToolTip": "C:\\Users\\astha\\source\\repos\\AddressBookProject\\RepositoryLayer\\Interface\\IUserRL.cs",
+              "RelativeToolTip": "RepositoryLayer\\Interface\\IUserRL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T05:51:08.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\astha\\source\\repos\\AddressBookProject\\RepositoryLayer\\Interface\\IEmailService.cs",
+              "RelativeDocumentMoniker": "RepositoryLayer\\Interface\\IEmailService.cs",
+              "ToolTip": "C:\\Users\\astha\\source\\repos\\AddressBookProject\\RepositoryLayer\\Interface\\IEmailService.cs",
+              "RelativeToolTip": "RepositoryLayer\\Interface\\IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T05:50:30.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ResetPasswordDTO.cs",
+              "DocumentMoniker": "C:\\Users\\astha\\source\\repos\\AddressBookProject\\ModelLayer\\Model\\ResetPasswordDTO.cs",
+              "RelativeDocumentMoniker": "ModelLayer\\Model\\ResetPasswordDTO.cs",
+              "ToolTip": "C:\\Users\\astha\\source\\repos\\AddressBookProject\\ModelLayer\\Model\\ResetPasswordDTO.cs",
+              "RelativeToolTip": "ModelLayer\\Model\\ResetPasswordDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T05:49:08.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ForgetPasswordDTO.cs",
+              "DocumentMoniker": "C:\\Users\\astha\\source\\repos\\AddressBookProject\\ModelLayer\\Model\\ForgetPasswordDTO.cs",
+              "RelativeDocumentMoniker": "ModelLayer\\Model\\ForgetPasswordDTO.cs",
+              "ToolTip": "C:\\Users\\astha\\source\\repos\\AddressBookProject\\ModelLayer\\Model\\ForgetPasswordDTO.cs",
+              "RelativeToolTip": "ModelLayer\\Model\\ForgetPasswordDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T05:48:30.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddressBookBL.cs",
+              "DocumentMoniker": "C:\\Users\\astha\\source\\repos\\AddressBookProject\\BusinessLayer\\Service\\AddressBookBL.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Service\\AddressBookBL.cs",
+              "ToolTip": "C:\\Users\\astha\\source\\repos\\AddressBookProject\\BusinessLayer\\Service\\AddressBookBL.cs",
+              "RelativeToolTip": "BusinessLayer\\Service\\AddressBookBL.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwDgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T05:47:44.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "JwtServices.cs",
+              "DocumentMoniker": "C:\\Users\\astha\\source\\repos\\AddressBookProject\\BusinessLayer\\Service\\JwtServices.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Service\\JwtServices.cs",
+              "ToolTip": "C:\\Users\\astha\\source\\repos\\AddressBookProject\\BusinessLayer\\Service\\JwtServices.cs",
+              "RelativeToolTip": "BusinessLayer\\Service\\JwtServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T05:47:07.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserBL.cs",
+              "DocumentMoniker": "C:\\Users\\astha\\source\\repos\\AddressBookProject\\BusinessLayer\\Service\\UserBL.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Service\\UserBL.cs",
+              "ToolTip": "C:\\Users\\astha\\source\\repos\\AddressBookProject\\BusinessLayer\\Service\\UserBL.cs",
+              "RelativeToolTip": "BusinessLayer\\Service\\UserBL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T05:46:25.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IUserBL.cs",
+              "DocumentMoniker": "C:\\Users\\astha\\source\\repos\\AddressBookProject\\BusinessLayer\\Interface\\IUserBL.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Interface\\IUserBL.cs",
+              "ToolTip": "C:\\Users\\astha\\source\\repos\\AddressBookProject\\BusinessLayer\\Interface\\IUserBL.cs",
+              "RelativeToolTip": "BusinessLayer\\Interface\\IUserBL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T05:45:59.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\astha\\source\\repos\\AddressBookProject\\AddressBookProject\\appsettings.json",
+              "RelativeDocumentMoniker": "AddressBookProject\\appsettings.json",
+              "ToolTip": "C:\\Users\\astha\\source\\repos\\AddressBookProject\\AddressBookProject\\appsettings.json",
+              "RelativeToolTip": "AddressBookProject\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-18T05:43:23.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AddressBookProject",
+              "DocumentMoniker": "C:\\Users\\astha\\source\\repos\\AddressBookProject\\AddressBookProject\\AddressBookProject.csproj",
+              "RelativeDocumentMoniker": "AddressBookProject\\AddressBookProject.csproj",
+              "ToolTip": "C:\\Users\\astha\\source\\repos\\AddressBookProject\\AddressBookProject\\AddressBookProject.csproj",
+              "RelativeToolTip": "AddressBookProject\\AddressBookProject.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-18T05:41:46.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\astha\\source\\repos\\AddressBookProject\\AddressBookProject\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "AddressBookProject\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\astha\\source\\repos\\AddressBookProject\\AddressBookProject\\Properties\\launchSettings.json",
+              "RelativeToolTip": "AddressBookProject\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-18T05:40:52.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddressBookController.cs",
+              "DocumentMoniker": "C:\\Users\\astha\\source\\repos\\AddressBookProject\\AddressBookProject\\Controllers\\AddressBookController.cs",
+              "RelativeDocumentMoniker": "AddressBookProject\\Controllers\\AddressBookController.cs",
+              "ToolTip": "C:\\Users\\astha\\source\\repos\\AddressBookProject\\AddressBookProject\\Controllers\\AddressBookController.cs",
+              "RelativeToolTip": "AddressBookProject\\Controllers\\AddressBookController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T05:39:48.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\astha\\source\\repos\\AddressBookProject\\AddressBookProject\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "AddressBookProject\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\astha\\source\\repos\\AddressBookProject\\AddressBookProject\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "AddressBookProject\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T05:38:47.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\astha\\source\\repos\\AddressBookProject\\AddressBookProject\\Program.cs",
               "RelativeDocumentMoniker": "AddressBookProject\\Program.cs",
               "ToolTip": "C:\\Users\\astha\\source\\repos\\AddressBookProject\\AddressBookProject\\Program.cs",
               "RelativeToolTip": "AddressBookProject\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-17T08:29:59.535Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

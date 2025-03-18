@@ -4,9 +4,11 @@ using ModelLayer.Model;
 using RepositoryLayer.Context;
 using Microsoft.EntityFrameworkCore;
 using BusinessLayer.Interface;
+using Microsoft.AspNetCore.Authorization;
 
 namespace AddressBook.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("[controller]")]
     public class AddressBookController : ControllerBase
