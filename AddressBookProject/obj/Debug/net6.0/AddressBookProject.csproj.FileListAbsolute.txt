@@ -1,7 +1,9 @@
+C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\obj\Debug\net6.0\AddressBookProject.csproj.AssemblyReference.cache
 C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\obj\Debug\net6.0\AddressBookProject.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\obj\Debug\net6.0\AddressBookProject.AssemblyInfoInputs.cache
 C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\obj\Debug\net6.0\AddressBookProject.AssemblyInfo.cs
 C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\obj\Debug\net6.0\AddressBookProject.csproj.CoreCompileInputs.cache
+C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\obj\Debug\net6.0\AddressBookProject.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\obj\Debug\net6.0\AddressBookProject.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\bin\Debug\net6.0\appsettings.json
@@ -11,9 +13,15 @@ C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\bin\Debug\net6
 C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\bin\Debug\net6.0\AddressBookProject.runtimeconfig.json
 C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\bin\Debug\net6.0\AddressBookProject.dll
 C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\bin\Debug\net6.0\AddressBookProject.pdb
+C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\bin\Debug\net6.0\Humanizer.dll
 C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
@@ -58,11 +66,11 @@ C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\bin\Debug\net6
 C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\bin\Debug\net6.0\BusinessLayer.dll
+C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\bin\Debug\net6.0\ModelLayer.dll
 C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\bin\Debug\net6.0\RepositoryLayer.dll
 C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\bin\Debug\net6.0\BusinessLayer.pdb
+C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\bin\Debug\net6.0\ModelLayer.pdb
 C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\bin\Debug\net6.0\RepositoryLayer.pdb
-C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\obj\Debug\net6.0\AddressBookProject.csproj.AssemblyReference.cache
-C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\obj\Debug\net6.0\AddressBookProject.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\obj\Debug\net6.0\scopedcss\bundle\AddressBookProject.styles.css
 C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\obj\Debug\net6.0\staticwebassets.development.json
@@ -80,7 +88,3 @@ C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\obj\Debug\net6
 C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\obj\Debug\net6.0\AddressBookProject.pdb
 C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\obj\Debug\net6.0\AddressBookProject.genruntimeconfig.cache
 C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\obj\Debug\net6.0\ref\AddressBookProject.dll
-C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\bin\Debug\net6.0\Humanizer.dll
-C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\bin\Debug\net6.0\ModelLayer.dll
-C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\bin\Debug\net6.0\ModelLayer.pdb

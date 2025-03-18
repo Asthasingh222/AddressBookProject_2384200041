@@ -60,6 +60,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -121,7 +125,14 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\astha\\source\\repos\\AddressBookProject\\ModelLayer\\ModelLayer.csproj": {
+                "projectPath": "C:\\Users\\astha\\source\\repos\\AddressBookProject\\ModelLayer\\ModelLayer.csproj"
+              },
+              "C:\\Users\\astha\\source\\repos\\AddressBookProject\\RepositoryLayer\\RepositoryLayer.csproj": {
+                "projectPath": "C:\\Users\\astha\\source\\repos\\AddressBookProject\\RepositoryLayer\\RepositoryLayer.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -139,6 +150,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[6.2.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -204,6 +221,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.11.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -251,7 +274,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\astha\\source\\repos\\AddressBookProject\\ModelLayer\\ModelLayer.csproj": {
+                "projectPath": "C:\\Users\\astha\\source\\repos\\AddressBookProject\\ModelLayer\\ModelLayer.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -270,6 +297,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[6.2.2, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.36, )"

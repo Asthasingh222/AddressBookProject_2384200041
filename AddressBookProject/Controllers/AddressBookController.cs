@@ -3,6 +3,7 @@ using RepositoryLayer.Entity;
 using ModelLayer.Model;
 using RepositoryLayer.Context;
 using Microsoft.EntityFrameworkCore;
+using BusinessLayer.Interface;
 
 namespace AddressBook.Controllers
 {
@@ -11,17 +12,18 @@ namespace AddressBook.Controllers
     public class AddressBookController : ControllerBase
     {
         AddressBookContext _context;
+        IAddressBookBL _addressBookBL;
 
-        public AddressBookController(AddressBookContext context)
+        public AddressBookController(AddressBookContext context, IAddressBookBL addressBookBL)
         {
             _context = context;
+            _addressBookBL = addressBookBL;
         }
-
         [HttpGet]
         public IActionResult GetAllContacts()
         {
-            var contacts = _context.AddressBookEntries.ToList();
-            ResponseModel<List<AddressBookEntry>> response = new ResponseModel<List<AddressBookEntry>>();
+            var contacts = _addressBookBL.GetAllContactsBL();
+            ResponseModel<List<AddressBookDTO>> response = new ResponseModel<List<AddressBookDTO>>();
             if (contacts == null)
             {
                 response.Success = false;
@@ -39,9 +41,9 @@ namespace AddressBook.Controllers
         [HttpGet("{Id}")]
         public IActionResult GetContactsByID(int Id)
         {
-            var contact = _context.AddressBookEntries.Find(Id);
-            ResponseModel<AddressBookEntry> response = new ResponseModel<AddressBookEntry>();
-            if (contact == null)
+            var result = _addressBookBL.GetContactByIdBL(Id);
+            ResponseModel<AddressBookDTO> response = new ResponseModel<AddressBookDTO>();
+            if (result == null)
             {
                 response.Success = false;
                 response.Message = "Contact by Id not found!";
@@ -50,57 +52,61 @@ namespace AddressBook.Controllers
             }
             response.Success = true;
             response.Message = "Contact by Id retrieved successfully!";
-            response.Data = contact;
+            response.Data = result;
             return Ok(response);
         }
 
         [HttpPost]
         public IActionResult AddContact(AddressBookDTO addressBookDTO)
         {
-            var contact = new AddressBookEntry
+            try
             {
-                Name = addressBookDTO.Name,
-                Phone = addressBookDTO.Phone,
-                Email = addressBookDTO.Email,
-                UserId = addressBookDTO.UserId
-            };
-            _context.AddressBookEntries.Add(contact);
-            _context.SaveChanges();
+                if (addressBookDTO == null)
+                {
+                    return BadRequest("AddressBookDTO is null.");
+                }
 
-            ResponseModel<AddressBookEntry> response = new ResponseModel<AddressBookEntry>();
-            response.Success = true;
-            response.Message = "Contact added successfully!";
-            response.Data = contact;
-            return Ok(response);
+                ResponseModel<AddressBookDTO> response = new ResponseModel<AddressBookDTO>();
+                var result = _addressBookBL.AddContactBL(addressBookDTO);
+
+                response.Success = true;
+                response.Message = "Contact added successfully.";
+                response.Data = result;
+                return Ok(response);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, ex.Message);
+            }
         }
 
         [HttpPut("{Id}")]
+
         public IActionResult UpdateContact(int Id, AddressBookDTO addressBookDTO)
         {
-            var existingContact = _context.AddressBookEntries.FirstOrDefault(addBook => addBook.Id == Id);
-            if (existingContact == null)
-                return null;
+            var result = _addressBookBL.UpdateContactBL(Id, addressBookDTO);
+            ResponseModel<AddressBookDTO> response = new ResponseModel<AddressBookDTO>();
+            if (result == null)
+            {
+                response.Success = false;
+                response.Message = "Contact not found!";
+                response.Data = null;
+                return NotFound(response);
 
-            existingContact.Name = addressBookDTO.Name;
-            existingContact.Phone = addressBookDTO.Phone;
-            existingContact.Email = addressBookDTO.Email;
-            existingContact.UserId = addressBookDTO.UserId;
+            }
 
-            _context.SaveChanges();
-
-            ResponseModel<AddressBookEntry> response = new ResponseModel<AddressBookEntry>();
             response.Success = true;
             response.Message = "Contact updated successfully!";
-            response.Data = existingContact;
+            response.Data = result;
             return Ok(response);
         }
 
         [HttpDelete("{Id}")]
         public IActionResult DeleteContact(int Id)
         {
-            ResponseModel<AddressBookEntry> response = new ResponseModel<AddressBookEntry>();
-            var contact = _context.AddressBookEntries.FirstOrDefault(addBook => addBook.Id == Id);
-            if (contact == null)
+            ResponseModel<string> response = new ResponseModel<string>();
+            var result = _addressBookBL.DeleteContactBL(Id);
+            if (result == null)
             {
                 response.Success = false;
                 response.Message = "Contact not found!";
@@ -108,11 +114,9 @@ namespace AddressBook.Controllers
                 return NotFound(response);
             }
 
-            _context.AddressBookEntries.Remove(contact);
-            _context.SaveChanges();
             response.Success = true;
             response.Message = "Contact deleted successfully!";
-            response.Data = contact;
+            response.Data = $"Id: {Id}";
             return Ok(response);
         }
     }
