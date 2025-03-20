@@ -5,24 +5,45 @@ using ModelLayer.Model;
 using RepositoryLayer.Entity;
 using RepositoryLayer.Interface;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Caching.Distributed;
+using Newtonsoft.Json;
 
 namespace RepositoryLayer.Service
 {
     public class AddressBookRL : IAddressBookRL
     {
+        private readonly IDistributedCache _cache;
         private readonly AddressBookContext _context;
         private readonly IMapper _mapper;
-        public AddressBookRL(AddressBookContext context, IMapper mapper)
+        public AddressBookRL(AddressBookContext context, IMapper mapper, IDistributedCache cache)
         {
             _context = context;
             _mapper = mapper;
+            _cache = cache;
         }
 
         public List<AddressBookDTO> GetAllContactsRL()
         {
+            string cacheKey = "all_contacts";
+            string serializedContacts = _cache.GetString(cacheKey);
+
+            if (!string.IsNullOrEmpty(serializedContacts))
+            {
+                return JsonConvert.DeserializeObject<List<AddressBookDTO>>(serializedContacts);
+            }
+
             var contacts = _context.AddressBookEntries.ToList();
-            return _mapper.Map<List<AddressBookDTO>>(contacts);
+            var contactDTOs = _mapper.Map<List<AddressBookDTO>>(contacts);
+
+            serializedContacts = JsonConvert.SerializeObject(contactDTOs);
+            _cache.SetString(cacheKey, serializedContacts, new DistributedCacheEntryOptions
+            {
+                AbsoluteExpirationRelativeToNow = TimeSpan.FromMinutes(10) // Cache expiry 10 min
+            });
+
+            return contactDTOs;
         }
+
 
         public AddressBookDTO GetContactByIdRL(int Id)
         {
@@ -35,8 +56,9 @@ namespace RepositoryLayer.Service
             var contact = _context.AddressBookEntries.FirstOrDefault(addBook => addBook.Email == addressBookDTO.Email);
             if (contact != null)
             {
-                throw new Exception("Contact already Exist");
+                throw new Exception("Contact already exists");
             }
+
             var newContact = new AddressBookEntry
             {
                 Name = addressBookDTO.Name,
@@ -44,17 +66,16 @@ namespace RepositoryLayer.Service
                 Email = addressBookDTO.Email,
                 UserId = addressBookDTO.UserId
             };
+
             _context.AddressBookEntries.Add(newContact);
             _context.SaveChanges();
 
-            return new AddressBookDTO
-            {
-                Name = addressBookDTO.Name,
-                Phone = addressBookDTO.Phone,
-                Email = addressBookDTO.Email,
-                UserId = addressBookDTO.UserId
-            };
+            // Remove old cache since data is updated
+            _cache.Remove("all_contacts");
+
+            return _mapper.Map<AddressBookDTO>(newContact);
         }
+
 
         public AddressBookDTO UpdateContactRL(int Id, AddressBookDTO addressBookDTO)
         {

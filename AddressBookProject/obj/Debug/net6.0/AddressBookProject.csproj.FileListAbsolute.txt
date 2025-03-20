@@ -21,6 +21,7 @@ C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\bin\Debug\net6
 C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
 C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\bin\Debug\net6.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
 C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
@@ -42,6 +43,10 @@ C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\bin\Debug\net6
 C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\bin\Debug\net6.0\Microsoft.OpenApi.dll
 C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\bin\Debug\net6.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\bin\Debug\net6.0\RabbitMQ.Client.dll
+C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\bin\Debug\net6.0\StackExchange.Redis.dll
 C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\astha\source\repos\AddressBookProject\AddressBookProject\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
